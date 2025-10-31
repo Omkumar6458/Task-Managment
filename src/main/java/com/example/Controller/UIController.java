@@ -25,7 +25,7 @@ public class UIController {
    
 	    @GetMapping("/")
 	    public String home() {
-	        return "login";  // shows login page
+	        return "login";  
 	    }
 
 	    @GetMapping("/register")
